@@ -18,6 +18,8 @@ def selection_sort(numbers):
     return numbers
 
 
+# Complexidade quadrática O(n²)
+
 numbers = [7, 5, 9, 2, 6, 8]
 print(f"Lista inicial: {numbers}")
 ordered_numbers = selection_sort(numbers)
