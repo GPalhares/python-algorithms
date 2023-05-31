@@ -17,6 +17,6 @@ def bubble_sort(numbers):
     return numbers
 
 
-# Complexidade Quadrática N(O²), porem mais rápido que o selection sort
+# Complexidade Quadrática O(n²), porem mais rápido que o selection sort
 numbers = [7, 5, 9, 2, 6, 8]
 print(bubble_sort(numbers))
